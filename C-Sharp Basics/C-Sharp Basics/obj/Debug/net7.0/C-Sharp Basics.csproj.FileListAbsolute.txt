@@ -1,0 +1,14 @@
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\bin\Debug\net7.0\C-Sharp Basics.exe
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\bin\Debug\net7.0\C-Sharp Basics.deps.json
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\bin\Debug\net7.0\C-Sharp Basics.runtimeconfig.json
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\bin\Debug\net7.0\C-Sharp Basics.dll
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\bin\Debug\net7.0\C-Sharp Basics.pdb
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.AssemblyInfoInputs.cache
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.AssemblyInfo.cs
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.csproj.CoreCompileInputs.cache
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.dll
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\refint\C-Sharp Basics.dll
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.pdb
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\C-Sharp Basics.genruntimeconfig.cache
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\C-Sharp Basics\C-Sharp Basics\obj\Debug\net7.0\ref\C-Sharp Basics.dll
