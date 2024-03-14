@@ -666,6 +666,106 @@ class Ubisoft : Game
 
 
 
+Audionic headphone = new()
+{
+    prodName = "Max Pro 5 Earphone",
+    grossPrice = 534.99,
+    prodRating = 3.4
+};
+
+Console.WriteLine(headphone.prodDesc());
+Console.WriteLine(headphone.salePrice(56));
+
+Audionic speaker = new()
+{
+    prodName = "Max Pro 5 Speaker",
+    grossPrice = 1000.99,
+    prodRating = 4.5
+};
+
+Console.WriteLine(speaker.prodDesc());
+Console.WriteLine(speaker.salePrice(80));
+//Console.WriteLine(speaker.colors());
+
+
+Cosmetics lipstick = new()
+{
+    prodName = "5 shades Lipstick",
+    prodRating = 3.4,
+    grossPrice = 3400
+};
+
+Console.WriteLine(lipstick.prodDesc());
+Console.WriteLine(lipstick.salePrice(45));
+Console.WriteLine(lipstick.colors());
+
+
+
+
+
+
+
+interface IElectronics
+{
+    string prodDesc();
+    double salePrice(double taxAmount);
+}
+
+interface ICosmetics
+{
+    string colors();
+}
+
+
+
+class Audionic : IElectronics
+{
+
+    public string prodName;
+    public double grossPrice;
+    public double prodRating;
+
+    public string prodDesc()
+    {
+        return $"\nProduct Name: {this.prodName} \nGross Price: {this.grossPrice} \nProduct Rating: {this.prodRating}";
+    }
+
+    public double salePrice(double taxAmount)
+    {
+        return this.grossPrice + taxAmount;
+    }
+
+
+}
+
+
+
+
+class Cosmetics : IElectronics, ICosmetics
+{
+
+    public string prodName;
+    public double grossPrice;
+    public double prodRating;
+
+    public string prodDesc()
+    {
+        return $"\nProduct Name: {this.prodName} \nGross Price: {this.grossPrice} \nProduct Rating: {this.prodRating}";
+    }
+
+    public double salePrice(double taxAmount)
+    {
+        return this.grossPrice + taxAmount;
+    }
+
+    public string colors()
+    {
+        return "Red, Pink, Orange, RedishPink";
+    }
+
+
+}
+
 
 
 
