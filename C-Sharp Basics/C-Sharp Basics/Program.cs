@@ -769,6 +769,139 @@ class Cosmetics : IElectronics, ICosmetics
 
 
 
+/*Console.WriteLine(weekDays.Saturday);
+Console.WriteLine((int)weekDays.Thursday);
+
+Console.WriteLine((int)employee.Arif * 12);
+
+enum employee
+{
+    Arif = 8900,
+    Zahid = 6700,
+    Amir = 5600,
+    Haris = 12000,
+    GhafoorKhan = 450000,
+    GhafoorAkmal = 23000
+}
+
+enum weekDays
+{
+    Monday = 67,
+    Tuesday = 90,
+    Wednesday = 89,
+    Thursday = 76,
+    Friday = 54,
+    Saturday = 89,
+    Sunday = 45
+}*/
+
+
+
+
+
+
+
+
+
+
+string[] names = ["Lahore", "Karachi", "Faislabad", "Islamabad", "Multan"];
+
+/*foreach (string name in names)
+{
+    Console.WriteLine(name);
+}*/
+
+int[] nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11];
+
+/*foreach (int num in nums)
+{
+    Console.WriteLine(num);
+}*/
+
+/*displayElement(nums);
+displayElement(names);
+
+
+
+static void displayElement<A>(A[] values)
+{
+    foreach (A value in values)
+    {
+        Console.WriteLine(value);
+    }
+}*/
+
+/*static void displayElement(string[] values)
+    {
+        foreach(string value in values)
+        {
+            Console.WriteLine(value);
+        }
+    }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products headphone = new();
+headphone[0] = 4.4;
+headphone[1] = 6.4;
+
+//Console.WriteLine(headphone[0]);
+//Console.WriteLine(headphone[1]);
+
+
+for(int i =0; i <= 1; i++)
+{
+    Console.WriteLine(headphone[i]);
+}    
+
+
+
+
+class Products
+{
+    private double[] ratings = new double[10];
+
+    public double this[int index]
+    {
+        get { return ratings[index]; }
+        set 
+        {
+           if(value >= 0 && value <= 5)
+            {
+                ratings[index] = value;  
+            }
+           else
+            {
+                Console.WriteLine("Kindly enter values in the range of 0 to 5");
+            }
+        }
+    }
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
