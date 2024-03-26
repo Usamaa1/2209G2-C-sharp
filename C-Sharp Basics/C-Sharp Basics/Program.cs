@@ -1,5 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using gamesProgram;
+using System.Collections;
 /*
 Console.WriteLine("Hello, World!");
 
@@ -605,7 +606,7 @@ class Nintendo : Game
 
 
 
-
+/*
 
 Nintendo supermario = new()
 {
@@ -662,11 +663,10 @@ class Ubisoft : Game
     {
         return (quantity * 20) + 10 + 50;
     }
-}
+}*/
 
 
-
-Audionic headphone = new()
+/*Audionic headphone = new()
 {
     prodName = "Max Pro 5 Earphone",
     grossPrice = 534.99,
@@ -734,8 +734,6 @@ class Audionic : IElectronics
     {
         return this.grossPrice + taxAmount;
     }
-
-
 }
 
 
@@ -762,10 +760,7 @@ class Cosmetics : IElectronics, ICosmetics
     {
         return "Red, Pink, Orange, RedishPink";
     }
-
-
-}
-
+}*/
 
 
 
@@ -856,15 +851,19 @@ static void displayElement<A>(A[] values)
 
 
 
-Products headphone = new();
-headphone[0] = 4.4;
-headphone[1] = 6.4;
+/*Products headphone = new()
+{
+    Id = 90
+};*/
+/*headphone[0] = 4.4;
+headphone[1] = 6.4;*/
 
+//Console.WriteLine(headphone.Id);
 //Console.WriteLine(headphone[0]);
 //Console.WriteLine(headphone[1]);
 
 
-for(int i =0; i <= 1; i++)
+/*for (int i =0; i <= 1; i++)
 {
     Console.WriteLine(headphone[i]);
 }    
@@ -874,6 +873,8 @@ for(int i =0; i <= 1; i++)
 
 class Products
 {
+
+    public int Id { get; set; }
     private double[] ratings = new double[10];
 
     public double this[int index]
@@ -894,23 +895,298 @@ class Products
 
 
 
+}*/
+
+
+
+//Timer.timer1();
+//Timer.timer2();
+//Timer.timer3();
+
+//Thread t1 = new(Timer.timer1);
+//Thread t2 = new(Timer.timer2);
+//Thread t3 = new(Timer.timer3);
+//t1.Name = "timer 1";
+
+//Console.WriteLine(t1.Name);
+//Console.WriteLine(t2.Name);
+
+
+//t1.Start();
+//t3.Start();
+//t2.Start();
+//t1.Abort();
+
+
+
+
+/*
+class Timer
+{
+    public static void timer1()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"{i} second of timer 1");
+            Thread.Sleep(1000);
+        }
+    }
+
+    public static void timer2()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine($"{i} second of timer 2");
+            Thread.Sleep(2000);
+        }
+    }
+
+
+    public static void timer3()
+    {
+        for (int i = 0; i < 10; i++)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine($"{i} second of timer 3");
+            Thread.Sleep(3000);
+        }
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+//await Task.WhenAll(Timer.timer1(), Timer.timer2(), Timer.timer3());
+/*
+await Timer.timer1();
+await Timer.timer2();
+
+Console.WriteLine("All timers run successfully");
+
+
+
+
+
+class Timer
+{
+    public static async Task timer1()
+    {
+        await Task.Run(() => 
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"{i} second of timer 1");
+                Thread.Sleep(1000);
+            }
+        });
+    }
+
+    public static async Task timer2()
+    {
+        await Task.Run(() =>
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkMagenta;
+                Console.WriteLine($"{i} second of timer 2");
+                Thread.Sleep(2000);
+            }
+        });
+    }
+
+
+    public static async Task timer3()
+    {
+        await Task.Run(() =>
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine($"{i} second of timer 3");
+                Thread.Sleep(3000);
+            }
+        });
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+/*
+Persons p1 = new("Zahid", "Khan", 22);
+
+Console.WriteLine(p1);
+
+
+public record Persons(string firstName, string lastName, int age);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Person p1 = new()
+{
+    firstName = "Zahid",
+    lastName = "Khan",
+    age = 19
+};
+
+Console.WriteLine(p1);*/
+
+
+
+/*List<Person> persons = new List<Person>()
+{
+    new()
+    {
+        firstName = "Zahid",
+        lastName = "Khan",
+        age = 10
+    },
+    new()
+    {
+        firstName = "Ajmal",
+        lastName = "Hanif",
+        age = 20
+    },
+    new()
+    {
+        firstName = "Haris",
+        lastName = "Naeem",
+        age = 23
+    },
+    new()
+    {
+        firstName = "Zafar",
+        lastName = "Akmal",
+        age = 34
+    },
+    new()
+    {
+        firstName = "Hina",
+        lastName = "Zara",
+        age = 45
+    }
+
+};*/
+
+
+
+/*var ageAbove23 = 
+    from a in persons
+    where a.age > 23
+    orderby a.age descending
+    select a;
+
+*/
+
+/*foreach (var d in ageAbove23)
+{
+    Console.WriteLine(d);
+}*/
+
+/*var ageAbove23 = persons.Where(p => p.age > 23);
+
+foreach(var d in ageAbove23)
+{
+    Console.WriteLine(d);
+}
+*/
+
+
+/*foreach (var person in persons)
+{
+    Console.WriteLine(person);
+}
+*/
+
+/*public record Person
+{
+    public required string firstName;
+    public string lastName;
+    public int age;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products headphone = new();
+headphone.color = "Blue";
+headphone[0] = 2.3;
+headphone[1] = 4.3;
+headphone[2] = 1.3;
+headphone[3] = 3.3;
+//Console.WriteLine(headphone.color);
+
+
+foreach(var rating in headphone)
+{
+    Console.WriteLine(rating);
 }
 
 
+class Products :IEnumerable
+{
+    public string? color;
+    public double[] ratings = new double[4];
 
+    public double this[int index]
+    {
+        get { return ratings[index]; }
+        set 
+        {
+            ratings[index] = value;
+        }
+    }
 
+    public IEnumerator GetEnumerator()
+    {
+        return ratings.GetEnumerator();
+    }
+    
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
