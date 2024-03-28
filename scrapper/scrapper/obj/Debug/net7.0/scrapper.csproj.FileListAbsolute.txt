@@ -1,0 +1,14 @@
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\bin\Debug\net7.0\scrapper.exe
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\bin\Debug\net7.0\scrapper.deps.json
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\bin\Debug\net7.0\scrapper.runtimeconfig.json
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\bin\Debug\net7.0\scrapper.dll
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\bin\Debug\net7.0\scrapper.pdb
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.AssemblyInfoInputs.cache
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.AssemblyInfo.cs
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.csproj.CoreCompileInputs.cache
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.dll
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\refint\scrapper.dll
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.pdb
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\scrapper.genruntimeconfig.cache
+C:\Users\usama\Desktop\Semester 3\C#\sourcecode\scrapper\scrapper\obj\Debug\net7.0\ref\scrapper.dll
